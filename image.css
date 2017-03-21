@@ -1,0 +1,43 @@
+.image_class
+{
+	width:50%;
+	height:50%;
+	background-color:RED;
+    position:relative;
+	overflow:hidden;
+}
+.bar
+{
+	width:50%;
+	height:7%;
+	background-color:YELLOw;
+}
+.section
+{
+	height:100%;
+	width:33.3%;
+	float:left;
+	background-color:blue;
+}
+.btn
+{
+	height:100%;
+	width:33%;
+	float:left;
+	background-color:yellow;
+}
+#crop_tool
+{
+	background:rgba(255,255,255,0.5);
+	border:1px dashed #fff;
+	width:250px;
+	height:250px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+    z-index:1;
+}
